@@ -3,7 +3,7 @@
 
 variable "aws_region" {
   type    = string
-  default = "us-east-1"
+  default = "ca-central-1"
 }
 
 variable "tfc_organization" {
@@ -15,6 +15,6 @@ variable "tfc_project" {
 }
 
 variable "tfc_hostname" {
-  type = string
+  type    = string
   default = "app.terraform.io"
 }
